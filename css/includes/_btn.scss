@@ -1,0 +1,19 @@
+@import './var';
+
+.btn-pink {
+    background-color: pink;
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.btn-enter {
+    margin-top: -16%;
+    z-index: 50;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    text-decoration: underline;
+}

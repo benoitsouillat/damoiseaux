@@ -1,0 +1,239 @@
+.opacity-0 {
+  opacity: 0 !important;
+}
+
+.opacity-1 {
+  opacity: 0.2 !important;
+}
+
+.opacity-2 {
+  opacity: 0.4 !important;
+}
+
+.opacity-3 {
+  opacity: 0.6 !important;
+}
+
+.opacity-4 {
+  opacity: 0.8 !important;
+}
+
+.opacity-5 {
+  opacity: 1 !important;
+}
+
+.line-height-1 {
+  line-height: 1rem !important;
+}
+
+.line-height-2 {
+  line-height: 1.2rem !important;
+}
+
+.line-height-3 {
+  line-height: 1.5rem !important;
+}
+
+.line-height-4 {
+  line-height: 4rem !important;
+}
+
+.btn-pink {
+  background-color: pink;
+  color: black;
+  text-decoration: underline;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.btn-enter {
+  margin-top: -16%;
+  z-index: 50;
+}
+
+.btn:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  text-decoration: underline;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-right: 2%;
+  padding-left: 2%;
+  background-color: #424849;
+}
+
+header #logo {
+  max-width: 25%;
+  width: 25%;
+}
+
+header #logo img {
+  margin-left: 20%;
+  padding-top: 10px;
+  height: 120px;
+  width: auto;
+}
+
+header #menu {
+  width: 70%;
+}
+
+header #menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+header #menu ul li:first-child {
+  padding-left: 0;
+}
+
+header #menu ul li {
+  padding: 40px 20px;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+
+header #menu ul li:hover {
+  -webkit-transform: scale(1.2) translateY(-5px);
+          transform: scale(1.2) translateY(-5px);
+  color: #F5EFB0;
+}
+
+header #menu ul li a {
+  padding: 40px 10px 18px 10px;
+  pointer-events: auto;
+}
+
+header #menu ul li a:hover {
+  border-top: solid 2px #F5EFB0;
+  -webkit-transform: scale(1.2) translateY(-5px);
+          transform: scale(1.2) translateY(-5px);
+  padding-top: 20px;
+}
+
+header #monelevage {
+  text-align: center;
+  width: 40%;
+  max-width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 20px;
+}
+
+header #monelevage h1 {
+  margin-top: 20px;
+  font-size: 1.8em;
+  padding-bottom: 5px;
+}
+
+header #monelevage h2 {
+  font-size: 1.5em;
+  padding-bottom: 5px;
+}
+
+header #monelevage h4 {
+  font-size: 1.2em;
+  padding-bottom: 5px;
+}
+
+header #carouss {
+  max-height: 250px;
+  height: 250px;
+  max-width: 55%;
+  width: 330px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+header #carouss img {
+  height: 220px;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  background-color: #5a6264;
+}
+
+body {
+  background-color: #5a6264;
+  color: #F598B9;
+}
+
+h1, h2, h3, h4 {
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+a {
+  color: #F598B9;
+}
+
+a:hover {
+  color: #F5EFB0;
+  text-decoration: underline;
+}
+
+/* Importation Identifiant par page */
+/* Carousel Page Accueil */
+.carousel-button-prevnext {
+  top: 20%;
+  bottom: 20%;
+}
+
+.carousel-control-prev-btn {
+  left: 10%;
+}
+
+.carousel-control-next-btn {
+  right: 10%;
+}
+/*# sourceMappingURL=main.css.map */
