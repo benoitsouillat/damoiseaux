@@ -38,7 +38,7 @@ header #menu ul li {
     padding: 20px 20px;
     padding-bottom: 20px;
     font-weight: bold;
-    transition: transform 500ms, color 200ms;
+    transition: transform 400ms, color 200ms;
     transition-delay: 0 0;
     transition-timing-function: ease-in;
     &:hover {
@@ -49,7 +49,7 @@ header #menu ul li {
 header #menu ul li a {
     padding: 20px 10px;
     text-shadow: 0 1px 1px $color-print;
-    transition: transform 500ms, color 0;
+    transition: transform 400ms, color 0;
     transition-delay: 0 0;
     transition-timing-function: ease-in;
     &:hover {

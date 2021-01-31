@@ -123,10 +123,10 @@ header #menu ul li {
   padding: 20px 20px;
   padding-bottom: 20px;
   font-weight: bold;
-  -webkit-transition: color 200ms, -webkit-transform 500ms;
-  transition: color 200ms, -webkit-transform 500ms;
-  transition: transform 500ms, color 200ms;
-  transition: transform 500ms, color 200ms, -webkit-transform 500ms;
+  -webkit-transition: color 200ms, -webkit-transform 400ms;
+  transition: color 200ms, -webkit-transform 400ms;
+  transition: transform 400ms, color 200ms;
+  transition: transform 400ms, color 200ms, -webkit-transform 400ms;
   -webkit-transition-delay: 0 0;
           transition-delay: 0 0;
   -webkit-transition-timing-function: ease-in;
@@ -142,10 +142,10 @@ header #menu ul li:hover {
 header #menu ul li a {
   padding: 20px 10px;
   text-shadow: 0 1px 1px #7FDDF5;
-  -webkit-transition: color 0, -webkit-transform 500ms;
-  transition: color 0, -webkit-transform 500ms;
-  transition: transform 500ms, color 0;
-  transition: transform 500ms, color 0, -webkit-transform 500ms;
+  -webkit-transition: color 0, -webkit-transform 400ms;
+  transition: color 0, -webkit-transform 400ms;
+  transition: transform 400ms, color 0;
+  transition: transform 400ms, color 0, -webkit-transform 400ms;
   -webkit-transition-delay: 0 0;
           transition-delay: 0 0;
   -webkit-transition-timing-function: ease-in;
@@ -381,16 +381,16 @@ footer {
   bottom: 0;
   left: 0;
   text-align: center;
-  margin-top: 20px;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  margin-top: 70px;
+  padding-top: 50px;
+  padding-bottom: 70px;
   background-color: #000;
   line-height: 0.8em;
   font-size: 0.9rem;
 }
 
 footer #developer {
-  margin-top: 20px;
+  margin-top: 30px;
   font-size: 0.7em;
 }
 
@@ -439,5 +439,95 @@ a:hover {
 
 .carousel-control-next-btn {
   right: 10%;
+}
+
+main .section-boutique {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: center;
+}
+
+main .section-boutique h2 {
+  margin-top: 30px;
+  width: 100%;
+}
+
+main .section-boutique .fig-container {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 98%;
+}
+
+main .section-boutique a {
+  min-width: 240px;
+  max-width: 350px;
+  height: 220px;
+  width: 25%;
+  border: solid 2px #F598B9;
+  border-radius: 5%;
+  overflow: hidden;
+  -webkit-transition: -webkit-transform 300ms;
+  transition: -webkit-transform 300ms;
+  transition: transform 300ms;
+  transition: transform 300ms, -webkit-transform 300ms;
+  -webkit-transition-delay: 0 0;
+          transition-delay: 0 0;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+}
+
+main .section-boutique a:hover {
+  -webkit-transform: scale(1.05) translateY(-3px);
+          transform: scale(1.05) translateY(-3px);
+  border: solid 6px #A85874;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+main .section-boutique img {
+  width: 100%;
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+main .section-boutique figcaption {
+  background-color: #F598B9;
+  color: #5a6264;
+  position: relative;
+  bottom: 0;
+  height: calc(100% - 150px);
+}
+
+main .section-boutique figcaption h4 {
+  padding-top: 20px;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+main .section-boutique a:hover figcaption {
+  background-color: #A85874;
+  color: #FFF;
 }
 /*# sourceMappingURL=main.css.map */

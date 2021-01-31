@@ -50,10 +50,10 @@
 
     <nav id="menu">
         <ul>
-            <li><a href="../index.php" >Accueil</a></li>
+            <li><a href="/index.php" >Accueil</a></li>
             <li><a href="/contenu/sommaire.php">Sommaire</a></li>
             <li><a href="/contenu/nos-repro.php">Nos reproducteurs</a></li>
-            <li><a href="/contenu/nos-repro.php">Nos chiots disponibles</a></li>
+            <li><a href="/contenu/nos-bébés.php">Nos chiots disponibles</a></li>
             <li><a href="/contenu/boutique.php">Nos articles</a></li>
             <li><a href="/contenu/whippet.php">Le Whippet</a></li>
             <li><a href="/contenu/contact.php">Nous contacter</a></li>
