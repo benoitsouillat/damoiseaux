@@ -426,7 +426,7 @@ a:hover {
   text-decoration: underline;
 }
 
-main > h2 {
+main > section > h2 {
   margin-top: 30px;
 }
 
@@ -443,6 +443,111 @@ main > h2 {
 
 .carousel-control-next-btn {
   right: 10%;
+}
+
+@media all and (max-width: 1280px) {
+  #index .carousel-caption {
+    position: static;
+    width: 75%;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  #index .carousel-indicators {
+    bottom: unset;
+  }
+  .btn-enter {
+    margin-top: 0;
+  }
+}
+
+#le-whippet {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+}
+
+#le-whippet h2, h4 {
+  width: 100%;
+  text-align: center;
+}
+
+#conseil-whippet {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  width: 100%;
+  text-align: center;
+}
+
+#conseil-whippet p {
+  text-align: justify;
+}
+
+#conseil-whippet ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+#conseil-whippet ul li {
+  -webkit-transition: -webkit-transform 500ms;
+  transition: -webkit-transform 500ms;
+  transition: transform 500ms;
+  transition: transform 500ms, -webkit-transform 500ms;
+  -webkit-transition-delay: 0 0;
+          transition-delay: 0 0;
+  -webkit-transition-timing-function: ease-in;
+          transition-timing-function: ease-in;
+}
+
+#conseil-whippet ul li:hover {
+  -webkit-transform: translateY(2px) rotate(0.01turn);
+          transform: translateY(2px) rotate(0.01turn);
+}
+
+#conseil-whippet a {
+  padding: 10px 20px;
+  font-weight: bold;
+  border: solid 2px #F598B9;
+  border-radius: 3%;
+}
+
+#conseil-whippet a:hover {
+  border: solid 2px #F5EFB0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+}
+
+#histoire-whippet {
+  width: 80%;
+}
+
+#caractere-whippet {
+  width: 80%;
 }
 
 main .section-boutique {
@@ -564,6 +669,7 @@ main .section-boutique a:hover figcaption {
   width: 100%;
   margin-bottom: 25px;
   text-align: center;
+  margin-top: 30px;
 }
 
 #ourdog h3 {

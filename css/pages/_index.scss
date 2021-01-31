@@ -13,3 +13,19 @@
 .carousel-control-next-btn {
     right: 10%;
 }
+
+@media all and (max-width: 1280px)
+{
+    #index .carousel-caption {
+        position: static;
+        width: 75%;
+        align-self: center;
+    }
+    #index .carousel-indicators {
+        bottom: unset;
+    }
+    .btn-enter {
+        margin-top: 0;
+    }
+
+}

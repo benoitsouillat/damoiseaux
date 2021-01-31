@@ -1,0 +1,61 @@
+@import '../includes/var';
+
+#le-whippet {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin: auto;
+}
+
+#le-whippet h2, h4 {
+    width: 100%;
+    text-align: center;
+}
+#conseil-whippet {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    width: 100%;
+    text-align: center;
+}
+#conseil-whippet p {
+    text-align: justify;
+}
+
+#conseil-whippet ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+}
+#conseil-whippet ul li {
+    transition: transform 500ms;
+    transition-delay: 0 0;
+    transition-timing-function: ease-in;
+
+    &:hover {
+        transform: translateY(2px) rotate(0.01turn);
+    }
+}
+#conseil-whippet a {
+    padding: 10px 20px;
+    font-weight: bold;
+    border: solid 2px $color-second;
+    border-radius: 3%;
+    &:hover {
+        border: solid 2px $color-hover;
+        box-sizing: border-box;
+        text-decoration: none;
+    }
+}
+
+#histoire-whippet {
+    width: 80%;
+}
+
+#caractere-whippet {
+    width: 80%;
+}
