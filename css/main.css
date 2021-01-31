@@ -483,6 +483,7 @@ main .section-boutique a {
   max-width: 350px;
   height: 220px;
   width: 25%;
+  margin: 0 20px 30px 20px;
   border: solid 2px #F598B9;
   border-radius: 5%;
   overflow: hidden;
