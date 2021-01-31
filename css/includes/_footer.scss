@@ -18,3 +18,9 @@ footer #developer {
     margin-top: 20px;
     font-size: 0.7em;
 }
+
+@media all and (max-width: 800px) {
+    footer {
+        line-height: 1.5em;
+    }
+}

@@ -394,6 +394,12 @@ footer #developer {
   font-size: 0.7em;
 }
 
+@media all and (max-width: 800px) {
+  footer {
+    line-height: 1.5em;
+  }
+}
+
 html {
   margin: 0;
   padding: 0;
