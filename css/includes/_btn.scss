@@ -13,7 +13,22 @@
     z-index: 50;
 }
 
-.btn:hover {
-    transform: scale(1.1);
-    text-decoration: underline;
+
+/* Définir les animations des boutons */
+
+.btn {
+    &__anim {
+
+        transition: transform 300ms;
+        transition-delay: 100ms;
+        transition-timing-function: ease-in-out;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+    &:hover {
+        transform: scale(1.1);
+        text-decoration: underline;
+    }
 }

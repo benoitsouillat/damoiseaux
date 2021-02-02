@@ -37,3 +37,24 @@
 .visible {
   display: visible;
 }
+.fancybox-inner {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fancybox-image {
+  width: 100%;
+  object-fit: contain;
+  align-self: center;
+}
+
+@media all and (max-width: 999px) {
+  .fancybox-skin {
+    overflow: hidden;
+  }
+  .fancybox-close {
+    top: 0;
+    right: 0;
+  }
+}

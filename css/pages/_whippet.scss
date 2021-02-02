@@ -29,12 +29,13 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: flex-start;
-    flex-wrap: nowrap;
+    line-height: 3rem;
 }
 #conseil-whippet ul li {
     transition: transform 500ms;
     transition-delay: 0 0;
     transition-timing-function: ease-in;
+    padding-bottom: 5px;
 
     &:hover {
         transform: translateY(2px) rotate(0.01turn);
@@ -58,4 +59,11 @@
 
 #caractere-whippet {
     width: 80%;
+}
+
+@media all and (max-width: 1280px) {
+    #conseil-whippet ul {
+        flex-direction: column;
+        align-items: center;
+    }
 }
