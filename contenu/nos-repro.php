@@ -51,9 +51,9 @@
                 </section>
                 <section>
                     <h4>Nos Femelles</h4>
-                    <a href="#dog-card" class="vignet-dog" id="idéale">
+                    <a href="#dog-card" class="vignet-dog" id="ideale">
                         <figure >
-                            <img src="/img/ideale/ideale.jpg" alt="idéale de la romance des damoiseaux" />
+                            <img src="/img/ideale/ideale.jpg" alt="ideale de la romance des damoiseaux" />
                             <figcaption>
                                 <h6>Idéale</h6>
                             </figcaption>
@@ -93,9 +93,9 @@
                             </figcaption>
                         </figure>
                     </a>
-                    <a href="#dog-card" class="vignet-dog" id="lady di">
+                    <a href="#dog-card" class="vignet-dog" id="ladydi">
                         <figure >
-                            <img src="/img/lady/lady.jpg" alt="lady di de la romance des damoiseaux" />
+                            <img src="/img/ladydi/ladydi.jpg" alt="Lady di de la romance des damoiseaux" />
                             <figcaption>
                                 <h6>Lady di</h6>
                             </figcaption>
@@ -247,6 +247,8 @@
                             </figcaption>
                         </figure>
                     </a>
+                                            -->
+
                     <a href="#dog-card" class="vignet-dog" id="zerotoone">
                         <figure>
                             <img src="/img/zerotoone/zerotoone.jpg" alt="zerotoone de la romance des damoiseaux" />
@@ -255,7 +257,6 @@
                             </figcaption>
                         </figure>
                     </a>
-                                            -->
                 </section>
                 <section>
                     <h4>Elles ont pris leur retraite</h4>
@@ -293,10 +294,6 @@
                 </div>
             </section>
             <div id="our-dog-fancybox">
-                <a class="fancybox" rel="monseigneur" href="/img/monseigneur/monseigneur.jpg"></a>
-                <a class="fancybox" rel="monseigneur" href="/img/monseigneur/monseigneur2.jpg"></a>
-                <a class="fancybox" rel="monseigneur" href="/img/monseigneur/monseigneur3.jpg"></a>
-                <a class="fancybox" rel="monseigneur" href="/img/monseigneur/monseigneur4.jpg"></a>
 
                 <a class="fancybox" rel="important" href="/img/important/important.jpg"></a>
                 <a class="fancybox" rel="important" href="/img/important/important2.jpg"></a>
@@ -308,20 +305,40 @@
                 <a class="fancybox" rel="inamour" href="/img/inamour/inamour3.jpg"></a>
                 <a class="fancybox" rel="inamour" href="/img/inamour/inamour4.jpg"></a>
 
+                <a class="fancybox" rel="monseigneur" href="/img/monseigneur/monseigneur.jpg"></a>
+                <a class="fancybox" rel="monseigneur" href="/img/monseigneur/monseigneur2.jpg"></a>
+                <a class="fancybox" rel="monseigneur" href="/img/monseigneur/monseigneur3.jpg"></a>
+                <a class="fancybox" rel="monseigneur" href="/img/monseigneur/monseigneur4.jpg"></a>
+
                 <a class="fancybox" rel="philosophe" href="/img/philosophe/philosophe.jpg"></a>
                 <a class="fancybox" rel="philosophe" href="/img/philosophe/philosophe2.jpg"></a>
                 <a class="fancybox" rel="philosophe" href="/img/philosophe/philosophe3.jpg"></a>
                 <a class="fancybox" rel="philosophe" href="/img/philosophe/philosophe4.jpg"></a>
+
+
+                <!-- Femelles -->
                 
                 <a class="fancybox" rel="guenolee" href="/img/guenolee/guenolee.jpg"></a>
                 <a class="fancybox" rel="guenolee" href="/img/guenolee/guenolee2.jpg"></a>
                 <a class="fancybox" rel="guenolee" href="/img/guenolee/guenolee3.jpg"></a>
                 <a class="fancybox" rel="guenolee" href="/img/guenolee/guenolee4.jpg"></a>
+                <a class="fancybox" rel="guenolee" href="/img/guenolee/guenolee5.jpg"></a>
+                <a class="fancybox" rel="guenolee" href="/img/guenolee/guenolee6.jpg"></a>
+                <a class="fancybox" rel="guenolee" href="/img/guenolee/guenolee7.jpg"></a>
+                <a class="fancybox" rel="guenolee" href="/img/guenolee/guenolee8.jpg"></a>
+                <a class="fancybox" rel="guenolee" href="/img/guenolee/guenolee9.jpg"></a>
+                <a class="fancybox" rel="guenolee" href="/img/guenolee/guenolee10.jpg"></a>
+                <a class="fancybox" rel="guenolee" href="/img/guenolee/guenolee11.jpg"></a>
+                <a class="fancybox" rel="guenolee" href="/img/guenolee/guenolee12.jpg"></a>
+                <a class="fancybox" rel="guenolee" href="/img/guenolee/guenolee13.jpg"></a>
+                <a class="fancybox" rel="guenolee" href="/img/guenolee/guenolee14.jpg"></a>
+                <a class="fancybox" rel="guenolee" href="/img/guenolee/guenolee15.jpg"></a>
 
                 <a class="fancybox" rel="hevidence" href="/img/hevidence/hevidence.jpg"></a>
-                <a class="fancybox" rel="hevidence" href="/img/hevidence/hevidence2.jpg"></a>
+                <a class="fancybox" rel="hevidence" href="/img/hevidence/hevidence5.jpg"></a>
                 <a class="fancybox" rel="hevidence" href="/img/hevidence/hevidence3.jpg"></a>
                 <a class="fancybox" rel="hevidence" href="/img/hevidence/hevidence4.jpg"></a>
+                <a class="fancybox" rel="hevidence" href="/img/hevidence/hevidence6.jpg"></a>
 
                 <a class="fancybox" rel="ideale" href="/img/ideale/ideale.jpg"></a>
                 <a class="fancybox" rel="ideale" href="/img/ideale/ideale2.jpg"></a>
@@ -343,16 +360,27 @@
                 <a class="fancybox" rel="jeunefille" href="/img/jeunefille/jeunefille2.jpg"></a>
                 <a class="fancybox" rel="jeunefille" href="/img/jeunefille/jeunefille3.jpg"></a>
                 <a class="fancybox" rel="jeunefille" href="/img/jeunefille/jeunefille4.jpg"></a>
+                <a class="fancybox" rel="jeunefille" href="/img/jeunefille/jeunefille5.jpg"></a>
+                <a class="fancybox" rel="jeunefille" href="/img/jeunefille/jeunefille6.jpg"></a>
 
-                <a class="fancybox" rel="lady" href="/img/lady/lady.jpg"></a>
-                <a class="fancybox" rel="lady" href="/img/lady/lady2.jpg"></a>
-                <a class="fancybox" rel="lady" href="/img/lady/lady3.jpg"></a>
-                <a class="fancybox" rel="lady" href="/img/lady/lady4.jpg"></a>
+                <a class="fancybox" rel="ladydi" href="/img/lady/ladydi.jpg"></a>
+                <a class="fancybox" rel="ladydi" href="/img/lady/ladydi2.jpg"></a>
+                <a class="fancybox" rel="ladydi" href="/img/lady/ladydi3.jpg"></a>
+                <a class="fancybox" rel="ladydi" href="/img/lady/ladydi4.jpg"></a>
+                <a class="fancybox" rel="ladydi" href="/img/lady/ladydi5.jpg"></a>
+                <a class="fancybox" rel="ladydi" href="/img/lady/ladydi6.jpg"></a>
+                <a class="fancybox" rel="ladydi" href="/img/lady/ladydi7.jpg"></a>
+                <a class="fancybox" rel="ladydi" href="/img/lady/ladydi8.jpg"></a>
+                <a class="fancybox" rel="ladydi" href="/img/lady/ladydi9.jpg"></a>
+                <a class="fancybox" rel="ladydi" href="/img/lady/ladydi10.jpg"></a>
+                <a class="fancybox" rel="ladydi" href="/img/lady/ladydi11.jpg"></a>
+                <a class="fancybox" rel="ladydi" href="/img/lady/ladydi12.jpg"></a>
 
                 <a class="fancybox" rel="mamzelle" href="/img/mamzelle/mamzelle.jpg"></a>
                 <a class="fancybox" rel="mamzelle" href="/img/mamzelle/mamzelle2.jpg"></a>
                 <a class="fancybox" rel="mamzelle" href="/img/mamzelle/mamzelle3.jpg"></a>
                 <a class="fancybox" rel="mamzelle" href="/img/mamzelle/mamzelle4.jpg"></a>
+                <a class="fancybox" rel="mamzelle" href="/img/mamzelle/mamzelle5.jpg"></a>
 
                 <a class="fancybox" rel="merveille" href="/img/merveille/merveille.jpg"></a>
                 <a class="fancybox" rel="merveille" href="/img/merveille/merveille2.jpg"></a>
@@ -368,6 +396,7 @@
                 <a class="fancybox" rel="orthense" href="/img/orthense/orthense2.jpg"></a>
                 <a class="fancybox" rel="orthense" href="/img/orthense/orthense3.jpg"></a>
                 <a class="fancybox" rel="orthense" href="/img/orthense/orthense4.jpg"></a>
+                <a class="fancybox" rel="orthense" href="/img/orthense/orthense5.jpg"></a>
 
                 <a class="fancybox" rel="oprecieuse" href="/img/oprecieuse/oprecieuse.jpg"></a>
                 <a class="fancybox" rel="oprecieuse" href="/img/oprecieuse/oprecieuse2.jpg"></a>
@@ -383,6 +412,9 @@
                 <a class="fancybox" rel="prestance" href="/img/prestance/prestance2.jpg"></a>
                 <a class="fancybox" rel="prestance" href="/img/prestance/prestance3.jpg"></a>
                 <a class="fancybox" rel="prestance" href="/img/prestance/prestance4.jpg"></a>
+
+                <a class="fancybox" rel="zerotoone" href="/img/zerotoone/zerotoone.jpg"></a>
+
 
             </div>
         </main>

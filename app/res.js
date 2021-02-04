@@ -7,9 +7,9 @@ let path = '/img/';
 let jpg = ".jpg";
 
 const whippet = "Whippet";
-const female = " femelle";
-const male = " mâle";
-const reforme = "reforme";
+const female = " Femelle";
+const male = " Mâle";
+const reforme = " En retraite";
 
 
 class dog {
@@ -32,16 +32,16 @@ let inamour = new dog("InAmour", "04 Mars 2013", whippet, damoiseaux, male, "Amo
 let philosophe = new dog("Philosophe", "21 Novembre 2019", whippet, damoiseaux, male, "");
 
 
-let guenolee = new dog("Guenolee", "16 Mars 2011", whippet, damoiseaux, female, "");
-let hevidence = new dog("Hevidence", "21 Juin 2012", whippet, damoiseaux, female, "");
-let ideale = new dog("Idéale", "29 Janvier 2013", whippet, damoiseaux, female, "");
+let guenolee = new dog("Guenolee", "16 Mars 2011", whippet, damoiseaux, reforme, "");
+let hevidence = new dog("Hevidence", "21 Juin 2012", whippet, damoiseaux, reforme, "");
+let ideale = new dog("Ideale", "29 Janvier 2013", whippet, damoiseaux, female, "");
 let imperiale = new dog("Imperiale", "29 Janvier 2013", whippet, damoiseaux, female, "Pepette");
 let intimite = new dog("Intimite", "23 Août 2013", whippet, damoiseaux, female, "'Timité");
 
 let jouvence = new dog("Jouvence", "17 Octobre 2014", whippet, canel, female, "");
 let jeunefille = new dog("Jeunefille", "15 Décembre 2014", whippet, damoiseaux, female, "");
 
-let lady = new dog("Lady di", "16 Janvier 2015", whippet, damoiseaux, female, "Didi");
+let ladydi = new dog("LadyDi", "16 Janvier 2015", whippet, damoiseaux, female, "Didi");
 let louisiane = new dog("Louisiane", "23 Mai 2015", whippet, damoiseaux, female, "Louise");
 
 let mamzelle = new dog("MamZelle", "16 Juin 2016", whippet, damoiseaux, female, "");
@@ -57,7 +57,7 @@ let orthense = new dog("Orthense", "12 Mai 2018", whippet, damoiseaux, female, "
 let obligeance = new dog("Obligeance", "30 Mars 2018", whippet, damoiseaux, female, "Obli");
 let oeuvredart = new dog("OeuvredArt", "12 Mai 2018", whippet, damoiseaux, female, "Oeuvre");
 let oprecieuse = new dog("Oprecieuse", "22 Mai 2018", whippet, damoiseaux, female, "Précieuse");
-let oracle = new dog("Oracle", "17 Décembre 2018", whippet, damoiseaux, female, "Précieuse");
+let oracle = new dog("Oracle", "17 Décembre 2018", whippet, damoiseaux, female, "");
 
 let prestance = new dog("Prestance", "03 Mars 2019", whippet, damoiseaux, female, "");
 let prodige = new dog("Prodige", "21 Novembre 2019", whippet, damoiseaux, female, "");
@@ -70,7 +70,7 @@ let zerotoone = new dog("ZerotoOne", "27 Juillet 2019", whippet, gentlemind, fem
 let femaleClass = [guenolee, hevidence, 
     ideale, imperiale, intimite, 
     jouvence, jeunefille,
-    lady, louisiane,
+    ladydi, louisiane,
     mamzelle, merveille, molly, missmonde,
     noblesse, noriane, nefertiti,
     orthense, obligeance, oprecieuse, oeuvredart, oracle, 

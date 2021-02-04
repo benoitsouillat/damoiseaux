@@ -23,23 +23,29 @@ const createBlock = (name) => {
                 }
                 else {
                 info.children[0].textContent = ' ' + elm.dogName + '  ' + elm.dogBreeder + ' - dite : ' + elm.dogSurname;
-
                 }
             }
 
-            if (elm.dogSex === " mâle")
+            if (elm.dogSex === male)
             {
                 info.children[1].textContent = " Né le " + elm.dogBirth;
-                info.children[2].classList.add("fa-mars");
                 info.children[2].classList.remove("fa-venus");
-
+                info.children[2].classList.remove("fa-angellist");
+                info.children[2].classList.add("fa-mars");
+            }
+            else if (elm.dogSex === reforme)
+            {
+                info.children[1].textContent = " Né le " + elm.dogBirth;
+                info.children[2].classList.remove("fa-venus");
+                info.children[2].classList.remove("fa-mars");
+                info.children[2].classList.add("fa-angellist");
             }
             else 
             {
                 info.children[1].textContent = " Née le " + elm.dogBirth;
-                info.children[2].classList.add("fa-venus");
                 info.children[2].classList.remove("fa-mars");
-
+                info.children[2].classList.remove("fa-angellist");
+                info.children[2].classList.add("fa-venus");
             }
             info.children[0].classList.add("fa-paw");
             info.children[1].classList.add("fa-calendar-check");
@@ -89,6 +95,10 @@ const nextDogFct = () => {
     {
         if (dogActive === dogClass[i].dogName)
         {
+            if (i+1 === dogClass.length)
+            {
+                i = -1;
+            }
             let name = dogClass[i+1].dogName.toLowerCase();
             createBlock(name);
             break;

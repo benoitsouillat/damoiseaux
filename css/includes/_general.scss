@@ -58,3 +58,18 @@
     right: 0;
   }
 }
+
+.responsive-hide {
+  @media all and (max-width: 750px)
+  {
+    display: none;
+    overflow: hidden;
+  }
+}
+.desktop-hide {
+  @media all and (min-width: 751px)
+  {
+    display: none;
+    overflow: hidden;
+  }
+}
