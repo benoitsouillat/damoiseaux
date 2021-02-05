@@ -94,7 +94,9 @@
                 </div>
                 <div id="contact-map">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6095.551913069036!2d1.6044664610160397!3d45.53376981147116!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfc843af4f7d44121!2sLa%20Romance%20des%20Damoiseaux!5e0!3m2!1sfr!2sfr!4v1612367934882!5m2!1sfr!2sfr" 
-                        frameborder="0" allowfullscreen="no" aria-hidden="false" tabindex="0">
+                        frameborder="0" 
+                        style="border:0;" allowfullscreen="" 
+                        aria-hidden="false" tabindex="0">
                     </iframe>
                 </div>
             </div>

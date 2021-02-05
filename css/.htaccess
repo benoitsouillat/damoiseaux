@@ -1,0 +1,13 @@
+
+ErrorDocument 404 /error/404.php
+
+
+DirectoryIndex /index.php
+
+
+RedirectPermanent /index.html /index.php
+RedirectPermanent /index.htm /index.php
+RedirectPermanent /sommaire.htm /contenu/sommaire.php
+RedirectPermanent /journal_bb/Naissance_2012/whippet_bb_dispo.htm /contenu/nos-bébés.php
+
+RedirectPermanent /oldversion /index.php

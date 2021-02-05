@@ -94,6 +94,34 @@
   }
 }
 
+.paragraphe {
+  width: 80%;
+  padding: 10px;
+  margin: auto;
+  text-align: unset;
+}
+
+.paragraphe img {
+  max-width: 350px;
+  width: 40%;
+  border: #A85874 2px solid;
+  border-radius: 5%;
+  -webkit-box-shadow: #A85874 3px 3px 12px;
+          box-shadow: #A85874 3px 3px 12px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.img-left {
+  margin-right: 30px;
+  float: left;
+}
+
+.img-right {
+  margin-left: 30px;
+  float: right;
+}
+
 .btn-pink {
   background-color: pink;
   color: black;
@@ -490,8 +518,40 @@ a:hover {
   text-decoration: underline;
 }
 
+table, td, tr, thead, tbody, th {
+  min-height: 30px;
+}
+
 main > section > h2 {
   margin-top: 30px;
+}
+
+main > section > h1 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+main > section > h3 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+main > section > h4 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+main > section > h5 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  width: 100%;
+  text-align: center;
 }
 
 #page-mail {
@@ -602,6 +662,224 @@ main > section > h2 {
   }
 }
 
+body #sommaire {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin: 0 !important;
+  padding: 1%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: auto;
+  list-style-type: none;
+  background-color: #7f898c !important;
+  color: #F598B9 !important;
+  text-shadow: black 0px 0px 10px;
+  overflow: hidden;
+}
+
+body #sommaire > td {
+  width: 50% !important;
+  max-width: 50% !important;
+  min-width: 30% !important;
+  background-color: #7f898c !important;
+  color: #F598B9 !important;
+}
+
+body #sommaire > th {
+  width: 50% !important;
+  max-width: 50% !important;
+  min-width: 30% !important;
+  background-color: #7f898c !important;
+  color: #F598B9 !important;
+}
+
+body #sommaire > tr {
+  width: 50% !important;
+  max-width: 50% !important;
+  min-width: 30% !important;
+  background-color: #7f898c !important;
+  color: #F598B9 !important;
+}
+
+body #sommaire > thead {
+  width: 50% !important;
+  max-width: 50% !important;
+  min-width: 30% !important;
+  background-color: #7f898c !important;
+  color: #F598B9 !important;
+}
+
+body #sommaire > tbody {
+  width: 50% !important;
+  max-width: 50% !important;
+  min-width: 30% !important;
+  background-color: #7f898c !important;
+  color: #F598B9 !important;
+}
+
+body #sommaire > table {
+  width: 50% !important;
+  max-width: 50% !important;
+  min-width: 30% !important;
+  background-color: #7f898c !important;
+  color: #F598B9 !important;
+}
+
+body #sommaire > img {
+  width: 50% !important;
+  max-width: 50% !important;
+  min-width: 30% !important;
+  background-color: #7f898c !important;
+  color: #F598B9 !important;
+}
+
+body #sommaire > span {
+  width: 50% !important;
+  max-width: 50% !important;
+  min-width: 30% !important;
+  background-color: #7f898c !important;
+  color: #F598B9 !important;
+}
+
+body #sommaire > p {
+  width: 50% !important;
+  max-width: 50% !important;
+  min-width: 30% !important;
+  background-color: #7f898c !important;
+  color: #F598B9 !important;
+}
+
+body #sommaire > div {
+  width: 50% !important;
+  max-width: 50% !important;
+  min-width: 30% !important;
+  background-color: #7f898c !important;
+  color: #F598B9 !important;
+}
+
+body #sommaire > aside {
+  width: 50% !important;
+  max-width: 50% !important;
+  min-width: 30% !important;
+  background-color: #7f898c !important;
+  color: #F598B9 !important;
+}
+
+body #sommaire > section {
+  width: 50% !important;
+  max-width: 50% !important;
+  min-width: 30% !important;
+  background-color: #7f898c !important;
+  color: #F598B9 !important;
+}
+
+body #sommaire a {
+  margin: 5% 2%;
+}
+
+body #sommaire h1, body #sommaire h2, body #sommaire h3, body #sommaire h4, body #sommaire h5, body #sommaire h6 {
+  font-size: 1.25rem;
+  line-height: 1.4;
+}
+
+@media all and (max-width: 1000px) {
+  body #sommaire > td {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 80% !important;
+    background-color: #7f898c !important;
+    color: #F598B9 !important;
+  }
+  body #sommaire > th {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 80% !important;
+    background-color: #7f898c !important;
+    color: #F598B9 !important;
+  }
+  body #sommaire > tr {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 80% !important;
+    background-color: #7f898c !important;
+    color: #F598B9 !important;
+  }
+  body #sommaire > thead {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 80% !important;
+    background-color: #7f898c !important;
+    color: #F598B9 !important;
+  }
+  body #sommaire > tbody {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 80% !important;
+    background-color: #7f898c !important;
+    color: #F598B9 !important;
+  }
+  body #sommaire > table {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 80% !important;
+    background-color: #7f898c !important;
+    color: #F598B9 !important;
+  }
+  body #sommaire > img {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 80% !important;
+    background-color: #7f898c !important;
+    color: #F598B9 !important;
+  }
+  body #sommaire > span {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 80% !important;
+    background-color: #7f898c !important;
+    color: #F598B9 !important;
+  }
+  body #sommaire > p {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 80% !important;
+    background-color: #7f898c !important;
+    color: #F598B9 !important;
+  }
+  body #sommaire > div {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 80% !important;
+    background-color: #7f898c !important;
+    color: #F598B9 !important;
+  }
+  body #sommaire > aside {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 80% !important;
+    background-color: #7f898c !important;
+    color: #F598B9 !important;
+  }
+  body #sommaire > section {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 80% !important;
+    background-color: #7f898c !important;
+    color: #F598B9 !important;
+  }
+}
+
 #le-whippet {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -650,6 +928,7 @@ main > section > h2 {
       -ms-flex-align: start;
           align-items: flex-start;
   line-height: 3rem;
+  padding-left: 0;
 }
 
 #conseil-whippet ul li {
@@ -683,14 +962,6 @@ main > section > h2 {
   text-decoration: none;
 }
 
-#histoire-whippet {
-  width: 80%;
-}
-
-#caractere-whippet {
-  width: 80%;
-}
-
 @media all and (max-width: 1280px) {
   #conseil-whippet ul {
     -webkit-box-orient: vertical;
@@ -701,6 +972,46 @@ main > section > h2 {
         -ms-flex-align: center;
             align-items: center;
   }
+}
+
+/*     -------  Page Choix du Sexe   -------     */
+/**/
+.para-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.para-flex .btn {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin-right: 10%;
+}
+
+.para-flex h6 {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  -webkit-box-sizing: unset;
+          box-sizing: unset;
+}
+
+.para-flex .important {
+  margin: 30px 0;
+  font-size: 1.1em;
+  line-height: 1.1em;
+  padding: 0 10%;
 }
 
 main .section-boutique {
@@ -1196,7 +1507,6 @@ main .section-boutique a:hover figcaption {
 #contact-bloc section div a:hover {
   text-decoration: underline;
   color: #A85874;
-  border-top: solid #A85874 2px;
 }
 
 #send-message {
@@ -1342,6 +1652,7 @@ main .section-boutique a:hover figcaption {
   width: 50%;
   min-width: 400px;
   min-height: 300px;
+  border: 0;
 }
 
 @media all and (max-width: 1000px) {

@@ -76,7 +76,6 @@
     &:hover {
         text-decoration: underline;
         color: $color-third;
-        border-top: solid $color-third 2px;
     }
 }
 #send-message {
@@ -171,6 +170,7 @@
     width: 50%;
     min-width: 400px;
     min-height: 300px;
+    border:0;
 
 }
 
